@@ -6,7 +6,7 @@ A ported version of TWRP made during my spare time for a tablet distribuited by 
 
 |Download|License|Issues|
 |---------|---------|----------|
-| [![Download Button](https://img.shields.io/badge/Download-1.0-blue.svg)](https://github.com/subwave07/hx10hd-twrp/releases) | [![License MIT Button](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/subwave07/hx10hd-twrp/blob/master/LICENSE) | [![Report Problems Button](https://img.shields.io/badge/Report-Problems-red.svg)](https://github.com/subwave07/hx10hd-twrp/issues)|
+| [![Download Button](https://img.shields.io/badge/TWRP-3.2.1--0-blue.svg)](https://github.com/subwave07/hx10hd-twrp/releases) | [![License MIT Button](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/subwave07/hx10hd-twrp/blob/master/LICENSE) | [![Report Problems Button](https://img.shields.io/badge/Report-Problems-red.svg)](https://github.com/subwave07/hx10hd-twrp/issues)|
 
 ## Status
 Zip flash, clean cache/dalvik cache and ADB Sideload are working, not sure about the rest.
