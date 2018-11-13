@@ -30,23 +30,23 @@ No source code is provided at the moment (it's a port), so I can't directly fix 
 
 - Must be made for MediaTek MT6580-powered devices (this tablet uses MT8321AB, which is a rebranded MT6580)
 - Must be made for an Android Marshmallow 6.0.1 based firmware (not sure about this requirement)
-- Must be version 3.0 at least (due a problem with fstab format on older versions)
+- Must be version 3.0 at least (due to a problem with fstab format on older versions)
 
 6. Extract recovery.img and MT6580_android_Scatter.txt from the firmware archive downloaded at step 2
 
 7. Rename "recovery.img" to "stock.img" and the TWRP img to "twrp.img"
 
-7. Unpack Carliv Image Kitchen and copy both the img files "recovery-resources" subdirectory
+7. Unpack Carliv Image Kitchen and copy both the img files in the "recovery-resources" subdirectory
 
-8. Open Carliv Image Kitchen and unpack both the recoveries; two new subdirectories named "stock" and "twrp" should've been created
+8. Open Carliv Image Kitchen and unpack both the recoveries; two new subdirectories named "stock" and "twrp" will be created
 
 ![Carliv Image Kitchen directory](README.md_images/8.jpg)
 
 9. Copy and overwrite the following files from "stock" to "twrp"
 
-	- stock/recovery.img-kernel -> twrp/recovery.img-kernel
-	- stock/ramdisk/etc/recovery.fstab -> twrp/ramdisk/etc/recovery.fstab
-	- stock/ramdisk/fstab.mt6580 -> twrp/ramdisk/fstab.mt6580
+	- stock/recovery.img-kernel --> twrp/recovery.img-kernel
+	- stock/ramdisk/etc/recovery.fstab --> twrp/ramdisk/etc/recovery.fstab
+	- stock/ramdisk/fstab.mt6580 --> twrp/ramdisk/fstab.mt6580
 
 10. Repack the TWRP recovery with Carliv Image Kitchen. A new .img file will be created in the "output" directory.
 
