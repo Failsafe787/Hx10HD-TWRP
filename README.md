@@ -4,6 +4,10 @@ A ported version of TWRP made during my spare time for a tablet distribuited by 
 
 ![Tablet image](README.md_images/main.jpg)
 
+|Download|License|Issues|
+|---------|---------|----------|
+| [![Download Button](https://img.shields.io/badge/Download-1.0-blue.svg)](https://github.com/subwave07/hx10hd-twrp/releases) | [![License MIT Button](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/subwave07/hx10hd-twrp/blob/master/LICENSE) | [![Report Problems Button](https://img.shields.io/badge/Report-Problems-red.svg)](https://github.com/subwave07/hx10hd-twrp/issues)|
+
 ## Status
 Zip flash, clean cache/dalvik cache and ADB Sideload are working, not sure about the rest.
 No source code is provided at the moment (it's a port), so I can't directly fix any sort of bug you can discover.
@@ -69,4 +73,8 @@ I don't konw if this porting guide is working. Maybe yes, maybe no.
 
 ## Acknowledgements
 
-A big thank you to [RAFAYEL7Zero](https://www.youtube.com/channel/UCQYEuQ9wtnlqSHXB1e3JQDA/) for his video guide [How to Port TWRP Recovery any MTK](https://www.youtube.com/watch?v=NC77TOde-GI), the TWRP team, Carliv and the guys who ported this recovery for the MT6580 for their wonderful job
+A big thank you to 
+- [RAFAYEL7Zero](https://www.youtube.com/channel/UCQYEuQ9wtnlqSHXB1e3JQDA/) for his video guide [How to Port TWRP Recovery any MTK](https://www.youtube.com/watch?v=NC77TOde-GI), 
+- The [TWRP team](https://twrp.me)
+- [Carliv (aka Bluefirebird)](https://gitlab.com/carliv)
+- The guys who ported this recovery for the MT6580 for their wonderful job
