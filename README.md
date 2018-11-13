@@ -11,7 +11,7 @@ No source code is provided at the moment (it's a port), so I can't directly fix 
 
 ## Port guide
 
-0. Unlock your bootloader. There're plenty of tutorials around the net, just search "Unlock bootloader Marshmallow". No unlock code is required. You'll lose your waranty.
+0. Unlock your bootloader. There're plenty of tutorials around the net, just search "Unlock bootloader Marshmallow". No unlock code is required. You'll lose your warranty.
 
 1. Check if your tablet is a revision 1704 one looking at its serial number. You can find it on the back cover, and must corresponds to `S\N:SP10HXBH1704******`
 
