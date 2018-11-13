@@ -24,11 +24,11 @@ No source code is provided at the moment (it's a port), so I can't directly fix 
 2. Dowload the latest firmware for your device from [Mediacom official website](https://www.mediacomeurope.it/tablet/scheda.aspx?XRI=67).
 
 	- As of November 2018, v1.3 build 1.20 is the most recent firmware available for download.
-	- **Ignore firmware v3.7 and v3.9 build 3.00, they're not for revision 1704 but 1711/1801.**
+	- **Ignore firmware v3.7 and v3.9 build 3.00, they're not for revision 1704 but for 1711/1801.**
 
 3. From the same page linked in step 2, download SP Flash Tool 5.1620
 
-4. Download [Carliv Image Kitchen](https://gitlab.com/carliv/carliv_image_kitchen) for your SO (Windows/Linux x86/x64)
+4. Download [Carliv Image Kitchen](https://gitlab.com/carliv/carliv_image_kitchen) for your OS (Windows/Linux x86/x64)
 
 5. Download an already compiled TWRP recovery [like this one](https://www.androidgsmbd.com/twrp-3-2-1-0-recovery-for-mt6580-kernel-3-18-19-mm/)
 
