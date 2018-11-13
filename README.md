@@ -36,28 +36,28 @@ No source code is provided at the moment (it's a port), so I can't directly fix 
 
 7. Rename "recovery.img" to "stock.img" and the TWRP img to "twrp.img"
 
-7. Unpack Carliv Image Kitchen and copy both the img files in the "recovery-resources" subdirectory
+8. Unpack Carliv Image Kitchen and copy both the img files in the "recovery-resources" subdirectory
 
-8. Open Carliv Image Kitchen and unpack both the recoveries; two new subdirectories named "stock" and "twrp" will be created
+9. Open Carliv Image Kitchen and unpack both the recoveries; two new subdirectories named "stock" and "twrp" will be created
 
 ![Carliv Image Kitchen directory](README.md_images/8.jpg)
 
-9. Copy and overwrite the following files from "stock" to "twrp"
+10. Copy and overwrite the following files from "stock" to "twrp"
 
 	- stock/recovery.img-kernel --> twrp/recovery.img-kernel
 	- stock/ramdisk/etc/recovery.fstab --> twrp/ramdisk/etc/recovery.fstab
 	- stock/ramdisk/fstab.mt6580 --> twrp/ramdisk/fstab.mt6580
 
-10. Repack the TWRP recovery with Carliv Image Kitchen. A new .img file will be created in the "output" directory.
+11. Repack the TWRP recovery with Carliv Image Kitchen. A new .img file will be created in the "output" directory.
 
-11. Open SP Flash Tool, load the previoulsy saved MT6580_android_Scatter.txt extracted from the firmware archive, untick everything except for Recovery,
+12. Open SP Flash Tool, load the previoulsy saved MT6580_android_Scatter.txt extracted from the firmware archive, untick everything except for Recovery,
 choose the TWRP image created, set Download Only mode and press Download.
 
 ![SP Flash Tools settings](README.md_images/11.jpg)
 
-12. Connect your tablet (must be turned-off) via USB and wait for the end of the flashing procedure
+13. Connect your tablet (must be turned-off) via USB and wait for the end of the flashing procedure
 
-13. Remove the USB cable, keep pressed Vol+ and Power buttons for 10 seconds and choose Recovery in order to start TWRP
+14. Remove the USB cable, keep pressed Vol+ and Power buttons for 10 seconds and choose Recovery in order to start TWRP
 
 
 
